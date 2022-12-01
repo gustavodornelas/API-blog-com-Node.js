@@ -1,0 +1,30 @@
+POST  http://localhost:4002/posts
+Content-Type: application/json
+
+{
+    "title": "EXEMPLO DE TITULO",
+    "article": "EXEMPLO DE ARTIGO",
+    "cover": "exemplo_de_url_de_imagem",
+    "user": "EXEMPLO DE USUARIO"
+}
+
+###
+GET http://localhost:4002/posts/
+
+###
+GET http://localhost:4002/posts/c61f9324-6e3f-4187-9666-49e2a2a94c55
+
+###
+PUT  http://localhost:4002/posts/49d3e2d4-aa80-408c-b381-2fbbf8f17a5e
+Content-Type: application/json
+
+{
+    "title": "EXEMPLO DE TITULO",
+    "article": "EXEMPLO DE ARTIGO",
+    "cover": "exemplo_de_url_de_imagem",
+    "user": "EXEMPLO DE USUARIO"
+}
+
+
+###
+DELETE http://localhost:4002/posts/78b11f17-a626-49e6-aea6-c9282826dc35

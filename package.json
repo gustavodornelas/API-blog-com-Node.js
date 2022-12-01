@@ -1,0 +1,17 @@
+{
+  "name": "blog-iftm",
+  "version": "1.0.0",
+  "description": "Blog para pratica de Node-js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "author": "Gustavo Dornelas",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.20"
+  }
+}
